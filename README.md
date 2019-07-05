@@ -1,0 +1,3 @@
+Ongoing work coming from H2020 GAPARS project to create a Scratch3 extension allowing sending job to Galaxy, using several Galaxy tools remotely, and combining thes tools, as bricks, into scratch3 workflows.
+
+Now we have to create Scratch3 blocks on https://github.com/yvanlebras/Scratch3Galaxy/blob/master/scratch-vm/src/extensions/scratch3_galaxy/index.js, for now there is only one Scratch3 block named `writeLog` and the idea is to use it for a first try, adding on it usegalaxy.eu API Call to work on this dedicated shared history https://usegalaxy.eu/u/ylebras/h/scratch3-test-history and for executing for example this tool https://usegalaxy.eu/root?tool_id=Grep1 specifying Matching `NLBMS` pattern
